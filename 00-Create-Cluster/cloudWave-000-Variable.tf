@@ -19,6 +19,7 @@ variable "terraform-aws-profile" {
 
 variable "terraform-workspace-name" {
   description = "terraform workspace name"
+  default = "cwave"
 }
 
 #########################################################################################################

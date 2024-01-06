@@ -2,6 +2,7 @@
 
 variable "cwave-cluster-name" {
   description = "AWS kubernetes cluster name"
+  default = "cwave-eks"
 }
 
 variable "cwave-cluster-version" {
