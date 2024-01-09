@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  os:
+    container_name: cloudnative
+    image: dangtong/ubuntu-20-mac
+    env_file:
+      - .awsenv
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - /Users/dangtongbyun/Library/CloudStorage/GoogleDrive-dbyun@redhat.com/My Drive/05.Lecture/kubernetes/cloudnative:/home/cloudnative
+#    command: sh -c "aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID} aws_secret_access_key ${AWS_SECRET_ACCESS_KEY} --region ${AWS_DEFAULT_REGION} --profile cwave"

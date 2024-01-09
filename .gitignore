@@ -1,4 +1,8 @@
 .idea
 .terraform
 .DS_Store
-.terraform.lock.hcl
+terraform.tfstate.d
+terraform.tfstate.d/.terraform.lock.hcl
+linux-container/.awsenv
+00-Create-Cluster/.terraform.lock.hcl
+cert/
